@@ -1,0 +1,146 @@
+[
+     {
+          "id" : 1,
+          "pic" : "https://i.ibb.co/W3K09pt/Health.png",
+          "title" : "Clean water for children",
+          "catagory" : "Health",
+          "ctBg" : "#0052ff33",
+          "cdBg" : "#0052ff26",
+          "tbBg" : "#0052FF",
+          "des" : "Make a profound impact on the well-being of individuals and communities by contributing to our Health Donation campaign. Your support plays a critical role in improving access to healthcare, medical treatments, and essential services for those in need. By donating to this campaign, you're helping us provide medical supplies, fund research, and support healthcare facilities, especially in underserved areas. Good health is a fundamental right, and your donation can help save lives and enhance the quality of life for countless individuals. Join us in promoting health and well-being for all by contributing to the Health category and making a positive difference in the world of healthcare.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 2,
+          "pic" : "https://i.ibb.co/N78K0Vt/Education.png",
+          "title" : "Good Education",
+          "catagory" : "Education",
+          "ctBg" : "#ff444a33",
+          "cdBg" : "#ff444a26",
+          "tbBg" : "#FF444A",
+          "des" : "Empower the future generation and change lives through our Education Donation initiative. Your contribution to education is an investment in knowledge, opportunity, and a brighter tomorrow. By supporting this campaign, you're helping to provide educational resources, scholarships, and access to quality learning for underserved students. Education is the key to unlocking potential and breaking the cycle of poverty. Join us in making a lasting impact by donating to our Education category and ensuring that every child has the chance to dream, learn, and succeed.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 3,
+          "pic" : "https://i.ibb.co/tqz4s4V/Clothing.png",
+          "title" : "Used clothing drive",
+          "catagory" : "Clothing",
+          "ctBg" : "#79c23f33",
+          "cdBg" : "#79c23f26",
+          "tbBg" : "#79C23F",
+          "des" : "Make a meaningful difference in someone's life by contributing to our Clothing Donation campaign. Your generosity can provide warmth, comfort, and dignity to individuals in need. By donating clothing items, you're helping us support vulnerable communities, homeless shelters, and those facing challenging circumstances. Every piece of clothing you give brings us one step closer to ensuring that no one goes without the basic necessity of clothing. Join us in making a positive impact and spreading warmth and hope through your kind donations in the Clothing category.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 4,
+          "pic" : "https://i.ibb.co/ckJZvrp/Food.png",
+          "title" : "Better food for everyone",
+          "catagory" : "Food",
+          "ctBg" : "#f8714733",
+          "cdBg" : "#f8714726",
+          "tbBg" : "#F87147",
+          "des" : "Join us in the fight against hunger through our Food Donation campaign. Your generous contributions can provide nourishment, hope, and relief to individuals and families facing food insecurity. By supporting this campaign, you're helping to stock food banks, provide meals for the less fortunate, and ensure that no one goes to bed hungry. Food is a basic human need, and your donation can make a significant difference in the lives of those struggling to put food on their tables. Together, we can alleviate hunger and bring smiles to the faces of those in need. Donate to the Food category today and be a part of the solution to end hunger.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 5,
+          "pic" : "https://i.ibb.co/ckJZvrp/Food.png",
+          "title" : "Better food for everyone",
+          "catagory" : "Health",
+          "ctBg" : "#79c23f33",
+          "cdBg" : "#79c23f26",
+          "tbBg" : "#79C23F",
+          "des" : "Join us in the fight against hunger through our Food Donation campaign. Your generous contributions can provide nourishment, hope, and relief to individuals and families facing food insecurity. By supporting this campaign, you're helping to stock food banks, provide meals for the less fortunate, and ensure that no one goes to bed hungry. Food is a basic human need, and your donation can make a significant difference in the lives of those struggling to put food on their tables. Together, we can alleviate hunger and bring smiles to the faces of those in need. Donate to the Food category today and be a part of the solution to end hunger.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 6,
+          "pic" : "https://i.ibb.co/tqz4s4V/Clothing.png",
+          "title" : "Used clothing drive",
+          "catagory" : "Food",
+          "ctBg" : "#f8714733",
+          "cdBg" : "#f8714726",
+          "tbBg" : "#F87147",
+          "des" : "Make a meaningful difference in someone's life by contributing to our Clothing Donation campaign. Your generosity can provide warmth, comfort, and dignity to individuals in need. By donating clothing items, you're helping us support vulnerable communities, homeless shelters, and those facing challenging circumstances. Every piece of clothing you give brings us one step closer to ensuring that no one goes without the basic necessity of clothing. Join us in making a positive impact and spreading warmth and hope through your kind donations in the Clothing category.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 7,
+          "pic" : "https://i.ibb.co/N78K0Vt/Education.png",
+          "title" : "Good Education",
+          "catagory" : "Clothing",
+          "ctBg" : "#0052ff33",
+          "cdBg" : "#0052ff26",
+          "tbBg" : "#0052FF",
+          "des" : "Empower the future generation and change lives through our Education Donation initiative. Your contribution to education is an investment in knowledge, opportunity, and a brighter tomorrow. By supporting this campaign, you're helping to provide educational resources, scholarships, and access to quality learning for underserved students. Education is the key to unlocking potential and breaking the cycle of poverty. Join us in making a lasting impact by donating to our Education category and ensuring that every child has the chance to dream, learn, and succeed.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 8,
+          "pic" : "https://i.ibb.co/W3K09pt/Health.png",
+          "title" : "Clean water for children",
+          "catagory" : "Education",
+          "ctBg" : "#ff444a33",
+          "cdBg" : "#ff444a26",
+          "tbBg" : "#FF444A",
+          "des" : "Make a profound impact on the well-being of individuals and communities by contributing to our Health Donation campaign. Your support plays a critical role in improving access to healthcare, medical treatments, and essential services for those in need. By donating to this campaign, you're helping us provide medical supplies, fund research, and support healthcare facilities, especially in underserved areas. Good health is a fundamental right, and your donation can help save lives and enhance the quality of life for countless individuals. Join us in promoting health and well-being for all by contributing to the Health category and making a positive difference in the world of healthcare.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 9,
+          "pic" : "https://i.ibb.co/tqz4s4V/Clothing.png",
+          "title" : "Used clothing drive",
+          "catagory" : "Clothing",
+          "ctBg" : "#ff444a33",
+          "cdBg" : "#ff444a26",
+          "tbBg" : "#FF444A",
+          "des" : "Make a meaningful difference in someone's life by contributing to our Clothing Donation campaign. Your generosity can provide warmth, comfort, and dignity to individuals in need. By donating clothing items, you're helping us support vulnerable communities, homeless shelters, and those facing challenging circumstances. Every piece of clothing you give brings us one step closer to ensuring that no one goes without the basic necessity of clothing. Join us in making a positive impact and spreading warmth and hope through your kind donations in the Clothing category.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 10,
+          "pic" : "https://i.ibb.co/ckJZvrp/Food.png",
+          "title" : "Better food for everyone",
+          "catagory" : "Food",
+          "ctBg" : "#0052ff33",
+          "cdBg" : "#0052ff26",
+          "tbBg" : "#0052FF",
+          "des" : "Join us in the fight against hunger through our Food Donation campaign. Your generous contributions can provide nourishment, hope, and relief to individuals and families facing food insecurity. By supporting this campaign, you're helping to stock food banks, provide meals for the less fortunate, and ensure that no one goes to bed hungry. Food is a basic human need, and your donation can make a significant difference in the lives of those struggling to put food on their tables. Together, we can alleviate hunger and bring smiles to the faces of those in need. Donate to the Food category today and be a part of the solution to end hunger.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 11,
+          "pic" : "https://i.ibb.co/W3K09pt/Health.png",
+          "title" : "Clean water for children",
+          "catagory" : "Health",
+          "ctBg" : "#f8714733",
+          "cdBg" : "#f8714726",
+          "tbBg" : "#F87147",
+          "des" : "Make a profound impact on the well-being of individuals and communities by contributing to our Health Donation campaign. Your support plays a critical role in improving access to healthcare, medical treatments, and essential services for those in need. By donating to this campaign, you're helping us provide medical supplies, fund research, and support healthcare facilities, especially in underserved areas. Good health is a fundamental right, and your donation can help save lives and enhance the quality of life for countless individuals. Join us in promoting health and well-being for all by contributing to the Health category and making a positive difference in the world of healthcare.",
+          "price" : 290 
+
+     },
+     {
+          "id" : 12,
+          "pic" : "https://i.ibb.co/N78K0Vt/Education.png",
+          "title" : "Good Education",
+          "catagory" : "Education",
+          "ctBg" : "#79c23f33",
+          "cdBg" : "#79c23f26",
+          "tbBg" : "#79C23F",
+          "des" : "Empower the future generation and change lives through our Education Donation initiative. Your contribution to education is an investment in knowledge, opportunity, and a brighter tomorrow. By supporting this campaign, you're helping to provide educational resources, scholarships, and access to quality learning for underserved students. Education is the key to unlocking potential and breaking the cycle of poverty. Join us in making a lasting impact by donating to our Education category and ensuring that every child has the chance to dream, learn, and succeed.",
+          "price" : 290 
+
+     }
+]
