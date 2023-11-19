@@ -27,14 +27,14 @@ function Statistics(props) {
 
   return (
     <div className='flex flex-col justify-center items-center my-5 py-2'>
-      <PieChart width={450} height={450}>
+      <PieChart width={350} height={350}>
         <Pie
           data={data}
           cx="50%"
           cy="50%"
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={200}
+          outerRadius={150}
           fill="#8884d8"
           dataKey="value"
         >
@@ -43,8 +43,8 @@ function Statistics(props) {
           ))}
         </Pie>
       </PieChart>
-      <div className='flex'>
-        <div className='flex items-center mr-10'>
+      <div className='flex flex-col md:flex-row'>
+        <div className='flex items-center md:mr-10'>
           <h1>Total Donation</h1>
           <div className='bg-[#FF444A] h-3 w-24 ml-2'></div>
         </div>

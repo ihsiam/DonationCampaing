@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
      <div className='bg-black/10 rounded-lg z-[20] mx-auto flex flex-wrap justify-between items-center w-full mt-2 py-2'>
-          <img src={Logo} alt=""/>
+          <img className=' w-32 md:w-48 h-auto' src={Logo} alt=""/>
           <>
                <div className='w-1/3 flex justify-end px-2'>
                     <div className='hidden w-full md:flex justify-between'>
