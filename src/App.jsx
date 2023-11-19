@@ -6,14 +6,34 @@ import Donations from './pages/donations/Donations'
 import Statistics from './pages/Statistics/Statistics'
 import DonationDetails from './pages/home/DonationDetails'
 import { useState } from 'react'
+import Swal from 'sweetalert2';
 
 function App() {
 
   const [donateData, setDonateData] = useState([]);
 
-  const reciveData = (data) =>{
-    setDonateData([...donateData, data]);
-  }
+  const reciveData = (card) => {
+    if (!donateData.some((donation) => donation.id === card.id)) {
+      setDonateData((prevDonations) => [...prevDonations, card]);
+      Swal.fire({
+        title: "Good Job!",
+        text: "You donation is successful.",
+        buttonsStyling: false,
+        customClass: {
+          confirmButton: 'px-4 py-2 font-bold bg-[#009444] text-white rounded-lg'
+        }
+      });
+    } else {
+      Swal.fire({
+        title: "Already donated.",
+        text: " If you'd like to make more donations, please kindly proceed to another category.",
+        buttonsStyling: false,
+        customClass: {
+          confirmButton: 'px-4 py-2 font-bold bg-[#009444] text-white rounded-lg'
+        }
+      });
+    }
+  };
 
   const len = donateData.length;
 

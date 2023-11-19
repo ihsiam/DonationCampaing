@@ -15,17 +15,17 @@ function Donations(props) {
         {
           Data.map((data) =>{
 
-            const {id, pic, title, catagory, ctBg, cdBg, tbBg, des, price } = data;
+            const {id, pic, title, category, ctBg, cdBg, tbBg, des, price } = data;
 
             return(
               <div key={id} className='flex rounded-lg' style={{backgroundColor : cdBg}}>
-                <img className='h-auto w-48 md:w-auto' src={pic} alt={title}/>
-                <div className='ml-5 py-5 md:py-10 flex flex-col justify-around'>
-                  <p className='w-fit text-sm font-semibold px-2 py-1 md:px-3 md:py-2 rounded' style={{backgroundColor : ctBg, color: tbBg}}>{catagory}</p>
-                  <h1 className=' font-semibold text-lg md:text-xl mt-2'>{title}</h1>
-                  <p className='font-semibold text-base my-2' style={{color: tbBg}}>${price}</p> 
+                <img className='w-40 md:w-auto' src={pic} alt={title}/>
+                <div className='ml-2 md:ml-5 py-2 md:py-10 flex flex-col justify-around'>
+                  <p className='w-fit mb-1 text-sm font-semibold px-2 py-1 md:px-3 md:py-2 rounded' style={{backgroundColor : ctBg, color: tbBg}}>{category}</p>
+                  <h1 className=' font-semibold text-base md:text-xl md:mt-2'>{title}</h1>
+                  <p className='font-semibold text-base md:my-2' style={{color: tbBg}}>${price}</p> 
                   <Link to={title} state={data}
-                  className='w-fit px-2 py-1 md:px-4 md:py-2 rounded-lg text-white font-semibold text-lg'
+                  className='w-fit mt-1 px-2 py-1 md:px-4 md:py-2 rounded-lg text-white font-semibold md:text-lg'
                   style={{backgroundColor : tbBg}}
                   >
                     View Details

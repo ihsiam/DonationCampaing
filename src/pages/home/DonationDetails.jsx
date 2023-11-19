@@ -10,7 +10,7 @@ const handleData = (data) =>{
      props.sendData(data);
 }
 
-const {id, pic, title, catagory, ctBg, cdBg, tbBg, des, price } = location.state
+const {id, pic, title, category, ctBg, cdBg, tbBg, des, price } = location.state
 
   return (
      <div className='my-5'>
