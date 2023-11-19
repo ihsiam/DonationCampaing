@@ -10,7 +10,7 @@ function Donations(props) {
   const Data = showAll ? data : data.slice(0, 4);
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col mb-5'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 my-5'>
         {
           Data.map((data) =>{
