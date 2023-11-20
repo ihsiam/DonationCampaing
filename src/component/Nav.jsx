@@ -15,7 +15,7 @@ function Nav(props) {
           {
                "id" : 2,
                "path" : "/donations",
-               "title" : "Donation"
+               "title" : "Donations"
           },
           {
                "id" : 3,

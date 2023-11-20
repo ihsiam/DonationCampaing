@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom'
 
 function DonationDetails(props) {
@@ -14,6 +15,11 @@ const {id, pic, title, category, ctBg, cdBg, tbBg, des, price } = location.state
 
   return (
      <div className='my-5'>
+          <div>
+               <Helmet>
+                    <title>{title}</title>
+               </Helmet>
+          </div>
           <div className='relative'>
                <img className=' h-80 md:h-[450px] lg:h-[700px] w-full rounded-lg' src={pic} alt={title}/>
                <div className='absolute rounded-b-lg bottom-0 h-20 md:h-24 lg:h-32 w-full bg-[#0b0b0b80] flex items-center pl-10'>

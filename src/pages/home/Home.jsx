@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Banner from './Banner'
 import Container from './Container'
+import { Helmet } from 'react-helmet';
 
 function Home() {
 
@@ -12,6 +13,11 @@ function Home() {
 
   return (
     <div className=''>
+      <div>
+        <Helmet>
+          <title>Home</title>
+        </Helmet>
+      </div>
       <Banner data={searchData}/>
       <Container search={searchItem}/>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
 function Statistics(props) {
@@ -27,6 +28,11 @@ function Statistics(props) {
 
   return (
     <div className='flex flex-col justify-center items-center my-5 py-2'>
+      <div>
+        <Helmet>
+          <title>Statistics</title>
+        </Helmet>
+      </div>
       <PieChart width={350} height={350}>
         <Pie
           data={data}
