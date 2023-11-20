@@ -15,7 +15,7 @@ function Home() {
     <div className=''>
       <div>
         <Helmet>
-          <title>Home</title>
+          <title>Donation Campaign - Home</title>
         </Helmet>
       </div>
       <Banner data={searchData}/>

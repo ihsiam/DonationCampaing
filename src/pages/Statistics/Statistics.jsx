@@ -55,7 +55,7 @@ function Statistics(props) {
           <div className='bg-[#FF444A] h-3 w-24 ml-2'></div>
         </div>
         <div className='flex items-center'>
-          <h1>Your Donation</h1>
+          <h1>You Donated</h1>
           <div className='bg-[#00C49F] h-3 w-24 ml-2'></div>
         </div>
       </div>

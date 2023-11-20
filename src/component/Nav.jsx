@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink} from 'react-router-dom'
 import {motion} from 'framer-motion'
+import './Navbar.css'
 
 function Nav(props) {
 
@@ -45,6 +46,7 @@ function Nav(props) {
                <NavLink
                key={menu.id}
                className='py-2 md:py-0'
+               activeClassname = 'active'
                to={menu.path}>
                     <motion.h1
                     variants={resAnimate}

@@ -1,0 +1,6 @@
+.active{
+     color: #FF444A;
+     border-bottom: 2px solid #FF444A;
+     transition: all;
+     transition-duration: 0.5;
+}
